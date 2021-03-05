@@ -1,0 +1,47 @@
+
+  body{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  img{
+    width: 200px;
+    border: solid;
+    border-width: thin;
+  }
+  .workstation{
+    writing-mode:vertical-rl;
+    text-transform: uppercase;
+    border: solid;
+    border-width: thin;
+  }
+  .name {
+    border: solid;
+    border-width: thin;
+  }
+  .container {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    border:solid;
+    border-width: thin;
+  }
+
+  .card {
+    margin: 10px;
+    padding: 10px;
+    border: solid;
+    border-width: thin;
+    align-items: flex-start;
+  }
+  .header {
+    margin: 10px;
+    border: solid;
+    border-width: thin;
+  }
+  .article {
+    margin: 10px;
+    border: solid;
+    border-width: thin;
+  }
