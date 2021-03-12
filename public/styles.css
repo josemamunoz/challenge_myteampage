@@ -152,6 +152,7 @@
   }
 
   @media screen and (max-width: 768px){
+    
     .container {
       grid-template-columns: repeat(1, 600px);
     }
@@ -176,11 +177,61 @@
       grid-row-start: 10;
     }
     .header {
+      margin-bottom: 0;
+      padding-bottom: 0;
       margin-left: 20px;
       padding-left: 20px;
     }
     .article {
       margin-left: 20px;
       padding: 20px;
+    }
+    .footer {
+      grid-column: 1;
+      display: flex;
+    }
+  }
+
+  @media screen and (max-width: 630px){
+    img{
+      max-width: 139px;
+    }
+    .container {
+      grid-template-columns: repeat(1, 375px);
+    }
+    .team {
+      grid-template-rows: repeat(14, 80px);
+      grid-template-columns: repeat(2, 187px);
+    }
+    .card-3 {
+      grid-column-start: 1;
+      grid-row-start: 5;
+    }
+    .card-4 {
+      grid-column-start: 2;
+      grid-row-start: 6;
+    }
+    .card-5 {
+      grid-column-start: 1;
+      grid-row-start: 9;
+    }
+    .card-6 {
+      grid-column-start: 2;
+      grid-row-start: 10;
+    }
+    .header {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      width: 375px;
+    }
+    .article {
+      margin-left: 10px;
+      font-size: 14px;
+      line-height: 21px;
+   
+    }
+    .footer {
+      grid-column: 1;
+      display: flex;
     }
   }
